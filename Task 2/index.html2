@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note App</title>
+    <style>
+        #content{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            color: blue;
+            background: lightgreen;
+        }
+        body{
+            background-color: lightgreen;
+        }
+        #content p{
+            font-size: large;
+        }
+        .box{
+            width: 400px;
+            height: 250px;
+            border-radius: 15px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <h1>Note App</h1>
+        <p>Double click on a note to remove it.</p>
+    </div>
+    <div class="box">Empty Box</div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
